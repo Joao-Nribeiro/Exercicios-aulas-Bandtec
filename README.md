@@ -1,1 +1,1 @@
-# Exercicios-aulas-Bandtec
+# Exercicios-aulas-Bandtec-2°Semestre
