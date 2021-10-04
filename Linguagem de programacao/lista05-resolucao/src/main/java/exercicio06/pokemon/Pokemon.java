@@ -1,4 +1,3 @@
-
 package exercicio06.pokemon;
 
 public class Pokemon {
@@ -49,7 +48,7 @@ public class Pokemon {
 
     @Override
     public String toString() {
-        return String.format("\nNome: %s\nTipo: %s\nForça: %.1f\nDoces: %d\n", 
+        return String.format("Nome: %s\nTipo: %s\nForça: %.1f\nDoces: %d", 
                 this.nome,
                 this.tipo,
                 this.forca,

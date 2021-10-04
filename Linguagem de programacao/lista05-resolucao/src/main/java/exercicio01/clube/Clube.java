@@ -18,19 +18,19 @@ public class Clube {
     }
     
     public void registrarVitoria() {
-        qtdVitorias++;
-        pontos += 3;
+        this.qtdVitorias++;
+        this.pontos += 3;
         System.out.println(String.format("%s vence a rodada", nomeTime));
     }
     
     public void registrarDerrota() {
-        qtdDerrotas++;
+        this.qtdDerrotas++;
         System.out.println(String.format("%s perde a rodada", nomeTime));
     }
     
     public void registrarEmpate() {
-        qtdEmpates++;
-        pontos++;
+        this.qtdEmpates++;
+        this.pontos++;
         System.out.println(String.format("%s empatada a rodada", nomeTime));
     }
 
@@ -56,6 +56,11 @@ public class Clube {
     
     public void emitirRelatorio() {
         System.out.println(String.format("Final:\n %s, Vitórias: %d, Derrotas: %d,"
-                + "Empates: %d\n Quantidade de pontos: %d", nomeTime, qtdVitorias, qtdDerrotas, qtdEmpates, pontos));
+                + "Empates: %d\n Quantidade de pontos: %d", 
+                this.nomeTime,
+                this.qtdVitorias,
+                this.qtdDerrotas,
+                this.qtdEmpates,
+                this.pontos));
     }
 }
