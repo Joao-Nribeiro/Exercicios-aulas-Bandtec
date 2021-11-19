@@ -9,8 +9,6 @@ public class TreinadorPokemon {
         this.nivel = 0;
     }
     
-    
-    
     public void treinarPokemon(Pokemon pokemonRecebido) {
         
         pokemonRecebido.setForca(pokemonRecebido.getForca() * 1.1);
